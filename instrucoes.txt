@@ -5,25 +5,26 @@ Bem-vindo!
 
 *---- Primeiro passo: ----*
 
-Instalar as dependencias 
-Java 17
-Maven
+Instalar o Java 17
+
 
 *---- Segundo passo: ----*
 
-    Depois de Instalar todas as dependencias, colocar o codigo Simple dentro da src->main->simple
+    Instale todas as dependencias, e abra um terminal, no diretorio do projeto.
 
 *---- Terceiro passo: ----*
 
-Opção 1:
+     Coloque o arquivo do codigo SIMPLE em formato txt, dentro da pasta do projeto.
 
-    Dentro do diretório raiz do projeto, executar o comando do maven.
-```sh mvn clean compile exec:java ```
+*---- Quarto  passo: ----*
 
-Opção 2:
+    Dentro do diretório raiz do projeto, executar o comando no terminal:
 
-Com uma IDE , rode a main.
+javac *.java
 
+Depois rodar este comando, onde depois da palavra `Principal `, colocar o diretorio completo, onde o projeto esta guardado, incluindo o nome do arquivo. Ex: "C:\Computador\compilador\codigo_simple.txt"
+
+java Principal  'diretorio onde o projeto foi baixado/clonado'
 
 *---- Resultado: ----*
     

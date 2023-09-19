@@ -178,7 +178,6 @@ public class AnaliseCodigo {
     private void comando() {
         switch (idAtual.getSimbolo()) {
             case REM:
-                // Pula o comentário
                 break;
             case ENTRADA:
                 proximoId();
@@ -189,7 +188,7 @@ public class AnaliseCodigo {
                 proximoId();
                 declararVariavel(idAtual.getValor());
                 proximoId();
-                proximoId(); // Pula ATRIBUICAO
+                proximoId(); 
                 expressao();
                 break;
             case SE:
@@ -219,7 +218,6 @@ public class AnaliseCodigo {
                 proximoId();
                 break;
             case FIM:
-                // Não faz nada.
                 break;
             default:
                 throw new RuntimeException("Comando não reconhecido.");
@@ -279,7 +277,6 @@ public class AnaliseCodigo {
         }
     }
 
-    // ... [Outros métodos auxiliares traduzidos]
 
     public void analisarSemanticamente() {
         proximoId();
@@ -291,7 +288,6 @@ public class AnaliseCodigo {
         verificarAlvosGoto();
     }
 
-    // ... [Outros métodos auxiliares traduzidos]
 
     private void verificarAlvosGoto() {
         for (int alvo : alvosGoto) {
