@@ -1,0 +1,30 @@
+2112130013 - Marcos Sergio Jordão de Sousa
+1922082022 - Juan Iago Alves Lobo 
+
+Bem-vindo!
+
+*---- Primeiro passo: ----*
+
+Instalar as dependencias 
+Java 17
+Maven
+
+*---- Segundo passo: ----*
+
+    Depois de Instalar todas as dependencias, colocar o codigo Simple dentro da src->main->simple
+
+*---- Terceiro passo: ----*
+
+Opção 1:
+
+    Dentro do diretório raiz do projeto, executar o comando do maven.
+```sh mvn clean compile exec:java ```
+
+Opção 2:
+
+Com uma IDE , rode a main.
+
+
+*---- Resultado: ----*
+    
+    No seu terminal será mostrado as analise e caso haja erro o terminal irá mostrar.

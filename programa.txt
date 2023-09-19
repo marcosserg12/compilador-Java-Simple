@@ -1,0 +1,15 @@
+10 input n
+15 if n < 0 goto 60
+20 let i = 1
+25 let p = 0
+30 let j = 0
+35 if j == n goto 70
+40 let j = j + 1
+45 let i = i + 2
+50 let p = p + 2
+55 goto 35
+60 let x = -1
+65 goto 75
+70 let x = i + p
+75 print x
+80 end
